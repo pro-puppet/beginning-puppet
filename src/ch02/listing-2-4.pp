@@ -4,4 +4,4 @@ package { 'git-review':
 
 package { 'git':
   ensure => 'installed',
-} 
+}

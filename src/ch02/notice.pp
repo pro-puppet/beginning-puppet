@@ -1,2 +1,1 @@
-
-notice("Send this message to puppet master")
+notice('Send this message to puppet master')
