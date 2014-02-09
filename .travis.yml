@@ -10,4 +10,8 @@ matrix:
     - rvm: 2.1.0
 notifications:
   email: false
-  irc: "irc.cat.pdx.edu#propuppet"
+  irc:
+    channels:
+      - "irc.cat.pdx.edu#propuppet"
+    template:
+      - "#%{build_number} (%{commit} : %{author}): %{message}"
