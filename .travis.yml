@@ -10,3 +10,4 @@ matrix:
     - rvm: 2.1.0
 notifications:
   email: false
+  irc: "irc.cat.pdx.edu#propuppet"
