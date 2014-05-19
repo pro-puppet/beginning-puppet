@@ -17,7 +17,7 @@ class syslog (
     require => Package['rsyslog'],
     notify  => Service['rsyslog'],
   }
-	
+
 }
 
 class { 'syslog':
