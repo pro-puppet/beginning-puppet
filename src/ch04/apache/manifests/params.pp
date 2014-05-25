@@ -1,3 +1,4 @@
+# Example apache params class
 class apache::params {
 
   case $::osfamily {

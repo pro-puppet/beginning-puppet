@@ -1,3 +1,4 @@
+# Example apache class
 class apache (
   $package_name = $::apache::params::package_name,
   $service_name = $::apache::params::service_name,
@@ -5,13 +6,13 @@ class apache (
 
 
   package { 'apache2':
-    name   => $package_name,
     ensure => installed,
+    name   => $package_name,
   }
 
   service { 'apache2':
-    name    => $service_name,
     ensure  => running,
+    name    => $service_name,
     enable  => true,
     require => Package['apache2'],
   }
