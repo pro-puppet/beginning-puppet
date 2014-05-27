@@ -1,11 +1,8 @@
 
-user { 'hunner':
+user { 'jenkins':
   ensure     => 'present',
-  comment    => 'Hunter Haugen',
-  groups     => ['sudo'],
-  home       => '/home/hunner',
+  comment    => 'Jenkins Build User',
+  home       => '/home/jenkins',
   managehome => true,
-  shell      => '/bin/zsh',
-  uid        => '9644',
 }
 

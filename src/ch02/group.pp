@@ -1,5 +1,5 @@
 
 
-group { 'module-team':
+group { 'sysadmins':
   ensure  => 'present',
 }

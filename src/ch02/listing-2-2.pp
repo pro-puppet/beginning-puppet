@@ -1,3 +1,3 @@
-package { 'htop':
+package { 'vim':
   ensure => 'installed',
 }
