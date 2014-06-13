@@ -10,6 +10,7 @@ PuppetLint.configuration.send('disable_class_inherits_from_params_class')
 PuppetLint.configuration.send('disable_class_parameter_defaults')
 PuppetLint.configuration.send('disable_documentation')
 PuppetLint.configuration.ignore_paths = ["spec/**/*.pp", "pkg/**/*.pp"]
+PuppetSyntax.exclude_paths = ["vendor/**/*"]
 
 task :test => [
     :syntax,
